@@ -922,6 +922,7 @@ address {
 .modal-form-checkbox-contract-link:focus,
 .modal-form-checkbox-contract-link:hover {
   color: var(--backlight-color);
+  outline-color: var(--backlight-color);
 }
 
 .modal-form-checkbox-agreement::before {
@@ -945,7 +946,7 @@ address {
 
 .modal-form-checkbox:focus + .modal-form-checkbox-agreement::before,
 .modal-form-checkbox:hover + .modal-form-checkbox-agreement::before {
-  box-shadow: 0 0 0 1px var(--accent-color);
+  border-color: var(--accent-color);
 }
 
 /* нужен ли box-shadow? портит */
