@@ -706,7 +706,7 @@ address {
   color: var(--dark-background-text-color);
 }
 
-.footer-form-offer::placeholder {
+.footer-form-input::placeholder {
   font-size: 16px;
   line-height: 1.25;
   letter-spacing: 0.03em;
