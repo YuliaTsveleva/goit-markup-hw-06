@@ -815,6 +815,12 @@ address {
   border-radius: 50%;
   background-color: transparent;
   cursor: pointer;
+  outline: none;
+}
+
+.modal-close-button:hover .modal-close-icon,
+.modal-close-button:focus .modal-close-icon {
+  fill: var(--accent-color);
 }
 
 .modal-form-head {
@@ -929,14 +935,15 @@ address {
   margin-right: 8px;
   width: 16px;
   height: 15px;
-  background-image: url('../images/icon-checkbox.svg');
+  border: 2px solid #000000;
+  border-radius: 2px;
   cursor: pointer;
   transition: background-color 500ms var(--timing-cubic);
 }
 
 .modal-form-checkbox:checked + .modal-form-checkbox-agreement::before {
   background-color: var(--accent-color);
-  border-radius: 2px;
+  border: none;
   fill: var(--dark-background-text-color);
   background-image: url('../images/icon-check.svg');
 }
